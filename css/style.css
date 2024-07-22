@@ -2,9 +2,23 @@
 
 
 .hP{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid black;
     list-style: none;
     padding: 5px;
     li{
+        
         display: inline;
+        border-right: 1px solid black;
+        padding: 7px 10px 7px 10px;
     }
+
+    .tel{
+        margin-left: 2px;
+        margin-right: 2px;
+        max-width: 15px;
+    }
+    
 }
