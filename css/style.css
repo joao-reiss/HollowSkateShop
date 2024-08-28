@@ -1,36 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {}
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {}
 
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {}
+
+*{
+    margin:0 auto;
+    padding:0px;
+}
 
 .logoimg{
     margin-top: -50px;
     max-width: 350px;
+    min-width: 100px;
     max-height: 350px;
-    position: relative;
+}
+
+.imgAli{
+    padding: 20px;
+    margin: auto;
 }
 
 .iconCar{
-    margin-top: 100px;
-    max-width: 50px;
-    max-height: 50px;
-}
-.iconUser{
-    margin-top: 100px;
     max-width: 100%;
     max-height: 50px;
+    transform-box: none;
+    -webkit-transform: scaleX(-1);
+}
+.iconUser{
+    max-width: 100%;
+    max-height: 50px;
+    /* Borda da direita */
     padding-right: 15px;
     border-right: solid 0.5px black;
 }
 
-.searchBody{
-margin-top: 100px;
+.searchAli{
+margin-top: auto;
 text-align: center;
 }
 .sStyleBar{
-    background: white url('../img/icons/light-mode/lupa.png') right no-repeat;
+    background: white url('../img/icons/light-mode/lupa.png') 550px 10px no-repeat;
     background-size: 30px;
     padding-left: 10px;
-    border: solid 0.5px black ;
-    width: 600px;
+    /* border: solid 0.5px black ; */
+    max-width: 600px;
+    min-width: 100px;
     height: 50px;
     outline: none;
     border-radius: 7px;
